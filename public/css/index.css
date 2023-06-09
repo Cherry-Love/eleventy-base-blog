@@ -154,6 +154,14 @@ header {
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
+	display: inline-block;
+	height: 50px;
+	background-image: url(../img/logo-icon.png);
+  padding: 0.9rem 0 0.5rem 3rem;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;

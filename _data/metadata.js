@@ -1,8 +1,9 @@
 module.exports = {
-	title: "Eleventy Base Blog v8",
+	title: "@CherryLove 11ty based",
+	image: "./img/logo.png",
 	url: "https://example.com/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "I am trying 11ty blog.",
 	author: {
 		name: "Cherry Love",
 		email: "vyshneva.liubov@gmail.com",
