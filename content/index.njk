@@ -5,6 +5,10 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
+Hello! On my first 11ty based blog!
+During the BootCamp of Web Developing with "The Coders Guild" we learn a lot of new features. Eleventy is one of them!
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>

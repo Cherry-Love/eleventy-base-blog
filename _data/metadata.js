@@ -1,6 +1,5 @@
 module.exports = {
 	title: "@CherryLove 11ty based",
-	image: "./img/logo.png",
 	url: "https://example.com/",
 	language: "en",
 	description: "I am trying 11ty blog.",
