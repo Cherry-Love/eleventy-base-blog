@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
+		<meta name="author" content="{{ author or metadata.author.name }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico" />
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
@@ -38,8 +40,7 @@
 
 
 		<header>
-		<a href="/" class="home-link">{{ metadata.title }}</a>
-
+		<a href="/" class="home-link"><img src="img/logo-icon.png" alt="Cherry Love logo icon" id="logo" /> <span>{{ metadata.title }}</span></a>
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>

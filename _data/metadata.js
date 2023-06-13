@@ -1,8 +1,8 @@
 module.exports = {
-	title: "@CherryLove 11ty based",
+	title: "CherryLove's 11ty Page",
 	url: "https://example.com/",
 	language: "en",
-	description: "I am trying 11ty blog.",
+	description: "Cherry Love's page",
 	author: {
 		name: "Cherry Love",
 		email: "vyshneva.liubov@gmail.com",

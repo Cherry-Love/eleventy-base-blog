@@ -53,7 +53,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 60em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -154,14 +154,24 @@ header {
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
-	display: inline-block;
+	/*display: inline-block;
 	height: 50px;
 	background-image: url(../img/logo-icon.png);
   padding: 0.9rem 0 0.5rem 3rem;
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
+	*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+}
+#logo {
+	border: 1px solid #75ceb1;
+	border-radius: 50%;
+	width: 30px;
+	margin-right: 10px;
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
