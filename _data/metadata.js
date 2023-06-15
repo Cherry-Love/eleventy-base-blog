@@ -3,6 +3,7 @@ module.exports = {
 	url: "https://example.com/",
 	language: "en",
 	description: "Cherry Love's page",
+	logo: "../img/logo-icon.png",
 	author: {
 		name: "Cherry Love",
 		email: "vyshneva.liubov@gmail.com",
