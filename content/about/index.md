@@ -9,7 +9,6 @@ eleventyNavigation:
  <section tabindex="1" id="bio" class="container container-lg-fluid p-4 mb-4 rounded border-1">
             <h3 class="fs-3  fw-bold px-5 text-uppercase rounded-end">bio</h3>
             <div class="clearfix text-light fs-5 px-2">
-
               <figure id="photo" class="d-flex flex-column flex-wrap p-3 border badge col-md-3 float-md-end mb-3 ms-md-3">
                 <img  src="../img/IMG_8331.JPG" alt="Liubov Vyshneva's photo" class="w-100"/>
                 <figcaption class="p-2 fs-6 text-center">Liubov Vyshneva<br/>@CherryLove</figcaption>
@@ -33,8 +32,6 @@ eleventyNavigation:
                 challenge and contribute to the success of your organization.
                 </p>
             </div>
-
-
           </section>
           <section  tabindex="2" id="skills" class="container container-lg-fluid p-4 mb-4 rounded border-1">
             <h3 class="fs-3  fw-bold px-5 text-uppercase rounded-end">skills</h3>
@@ -54,10 +51,8 @@ eleventyNavigation:
                     </li>
                     <li>Graphic design experience</li>
                   </ul>
-
             </div>
-            </section>
-
+          </section>
           <section id="technologes" class="container container-lg-fluid p-4 mb-4 rounded border-1">
             <h3 class="fs-3  fw-bold px-5 text-uppercase rounded-end">TECHNOLOGIES</h3>
             <div class="row p-3 d-flex flex-row justify-content-lg-start text-light flex-wrap">
@@ -71,9 +66,5 @@ eleventyNavigation:
              <span class="d-inline-block border rounded-1 fs-6 w-auto m-1">MS Office</span>
              <span class="d-inline-block border rounded-1 fs-6 w-auto m-1">Corel Draw</span>
              <span class="d-inline-block border rounded-1 fs-6 w-auto m-1">Adobe Photoshop</span>
-
-
-
-            </div>
-
-            </section>
+						</div>
+					</section>
