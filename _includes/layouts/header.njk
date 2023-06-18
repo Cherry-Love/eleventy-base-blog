@@ -1,0 +1,39 @@
+<header class="container-fluid p-3 px-md-5 shadow-lg d-flex flex-row">
+
+			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+
+
+        <div class="flex-grow-1 align-self-center">
+					<a href="/" class="home-link"><img src="{{ metadata.logo }}" alt="Cherry Love logo icon" id="logo" /> </a>
+          <h1 class="fs-2 fw-bold text-wrap mb-0 ms-3">{{ metadata.title }}</h1>
+        </div>
+      </header>
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+			<h2 class="visually-hidden">Top level navigation menu</h2>
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 text-capitalize">
+              
+
+              <!--li class="nav-item">
+                <a class="nav-link" href="#contacts">contacts</a>
+              </!--li-->
+								{%- for entry in collections.all | eleventyNavigation %}
+									<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %} class="nav-link">{{ entry.title }}</a></li>
+								{%- endfor %}
+          </div>
+        </div>
+      </nav>
