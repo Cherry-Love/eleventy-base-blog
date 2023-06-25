@@ -374,10 +374,36 @@ form {
 	width: 80%;
 	max-width: 600px;
 	margin: 20px auto;
-	padding: 40px;
+	padding: 20px;
+	text-align: center;
+}
+form div, form fieldset {
+	text-align: left;
+}
+form fieldset {
+	border-radius: 10px;
+	border: 1px solid var(--secondary-color);
+	padding:  15px;
+	position: relative;
+	margin-bottom: 20px;
 }
 
 form#submit {
 	margin: 10px auto;
 }
-
+form *:disabled {
+	background-color: #aaa !important;
+	color: #666;
+}
+.btn-primary {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+	color: var(--text-color);
+	margin: 10px auto;
+	padding: 10px 30px;
+	text-align: center	;
+}
+.btn-primary:hover {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
